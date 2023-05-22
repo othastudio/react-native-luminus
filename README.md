@@ -1,14 +1,9 @@
-# Expo Router Example
+<p align="center">
+    <img alt="React Native Luminus" src="https://i.ibb.co/By478HS/Logo-rn-luminus.png" width="200" />
+</p>
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+<h1 align="center">
+  React Native Template Luminus
+</h1>
 
-## 🚀 How to use
-
-```sh
-npx create-expo-app -e with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+Introducing a powerful template for your next React Native project, designed with a focus on developer experience and performance. This template incorporates the following technologies: Typescript, Expo, Expo Router, and Axios. Get ready to supercharge your development process! 🚀
