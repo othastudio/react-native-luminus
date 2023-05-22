@@ -1,8 +1,8 @@
 import { StyleSheet } from "react-native"
-import { windowWidth, windowHeight } from "../utils/screen-sizes"
-import {colors} from '../utils/colors'
+import { windowWidth, windowHeight } from "../../utils/screen-sizes"
+import { colors } from "../../utils/colors"
 
-export const global = StyleSheet.create({
+export const about = StyleSheet.create({
     container:{
         width: windowWidth,
         height: windowHeight,
@@ -10,7 +10,8 @@ export const global = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         gap: 23,
-        backgroundColor: colors.success100
+        backgroundColor: colors.success100,
+        paddingHorizontal: 25
     },
     image:{
         width: 200, 
@@ -19,7 +20,11 @@ export const global = StyleSheet.create({
     },
     text:{
         fontSize: 25,
-        fontWeight: "700",
-        color: colors.primary600
+        fontWeight: "600"
+    },
+    paragraph:{
+        fontSize: 15,
+        fontWeight: "400",
+        textAlign: "center"
     }
 })
