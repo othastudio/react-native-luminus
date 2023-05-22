@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native'
 import React from 'react'
+import { View, Text, TouchableOpacity } from 'react-native'
+import { primary } from '../../style/components/buttons'
 
-export default function Primary() {
+export default function Primary({press}) {
   return (
-    <View>
-      <Text>Primary button</Text>
-    </View>
+    <TouchableOpacity style={primary.button} onPress={()=>press()}>
+      <Text style={primary.text}>Discover about us</Text>
+    </TouchableOpacity>
   )
 }
