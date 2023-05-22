@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="React Native Luminus" src="https://i.ibb.co/By478HS/Logo-rn-luminus.png" width="200" />
+    <img alt="React Native Luminus" src="https://i.postimg.cc/kG5X4GDK/Logo-rn-luminus.png" width="200" />
 </p>
 
 <h1 align="center">
